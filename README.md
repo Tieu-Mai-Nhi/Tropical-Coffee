@@ -1,4 +1,5 @@
-- chia component để reuse (header, footer)
+- chia component để reuse (header, footer): done
+- click trang nào, trang đấy sáng
 - php mailer
 - tối ưu SEO
 - favicon

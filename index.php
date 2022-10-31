@@ -1,102 +1,21 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php
+    include './headTag.php';
+    ?>
 
-        <meta name="description" content="Tropical Coffee là thương hiệu sản xuất và cung cấp cà phê Việt thượng hạng, hoạt động với tầm nhìn trở thành đơn vị hàng đầu trong ngành công nghiệp cà phê, chúng tôi mong muốn góp phần nâng cao thương hiệu và vai trò của cà phê Việt trong chuỗi cung ứng toàn cầu.">
-        <meta name="author" content="">
-
-        <title>Tropical Coffee</title>
-
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-        <link rel="stylesheet" href="css/slick.css"/>
-
-        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
-
-        <link rel="icon" type="image/x-icon" href="./images/avt.jpg">
-<!--
-
-Tooplate 2127 Little Fashion
-
-https://www.tooplate.com/view/2127-little-fashion
-
--->
-    </head>
-    
     <body>
-
         <section class="preloader">
             <div class="spinner">
                 <span class="sk-inner-circle"></span>
             </div>
         </section>
-    
+
         <main>
+            <!-- header -->
+            <?php
+            include './components/header.php';
+            ?>
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="index.html">
-                        <strong><span>Tropical</span> Coffee</strong>
-                    </a>
-
-                    <div class="d-lg-none">
-                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
-
-                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Trang chủ</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="products.html">Sản phẩm</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">Story</a>
-                            </li>
-
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="faq.html">FAQs</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Liên hệ</a>
-                            </li>
-                        </ul>
-
-                        <div class="d-none d-lg-block">
-                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
-
-                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-
-            
-            <section class="slick-slideshow">   
+            <section class="slick-slideshow">
                 <div class="slick-custom">
                     <img src="./images/slideshow/slideshow2.jpg" class="img-fluid" alt="">
 
@@ -222,12 +141,22 @@ https://www.tooplate.com/view/2127-little-fashion
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                                 <h4 class="mb-3">Vì sao chọn chúng tôi?</h4>
 
-                                                  <ul>
-                                                    <li><p>Chúng tôi có đội ngũ nhân viên giàu kinh nghiệm, năng động, nhiệt tình.</p></li>
-                                                    <li><p>Quy trình sản xuất hiện đại, đạt tiêu chuẩn <b>ISO</b>, <b>HACCP</b>, <b>VSATTP</b>.</p></li>
-                                                    <li><p>Năng lực sản xuất quy mô lớn.</p></li>
-                                                    <li><p>Giá thành cạnh tranh, sản phẩm chất lượng.</p></li>
-                                                    <li><p>Đội ngũ hỗ trợ có mặt tai nhiều nước: Trung Quốc, Đài Loan, HongKong, Singapore, sẵn sàng hỗ trợ đối tác.</p></li>
+                                                <ul>
+                                                    <li>
+                                                        <p>Chúng tôi có đội ngũ nhân viên giàu kinh nghiệm, năng động, nhiệt tình.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Quy trình sản xuất hiện đại, đạt tiêu chuẩn <b>ISO</b>, <b>HACCP</b>, <b>VSATTP</b>.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Năng lực sản xuất quy mô lớn.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Giá thành cạnh tranh, sản phẩm chất lượng.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Đội ngũ hỗ trợ có mặt tai nhiều nước: Trung Quốc, Đài Loan, HongKong, Singapore, sẵn sàng hỗ trợ đối tác.</p>
+                                                    </li>
                                                 </ul>
 
                                                 <div class="mt-2 mt-lg-auto">
@@ -256,25 +185,25 @@ https://www.tooplate.com/view/2127-little-fashion
                                                 <div class="skill-thumb mt-3">
 
                                                     <strong>Branding</strong>
-                                                        <span class="float-end">90%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-                                                            </div>
+                                                    <span class="float-end">90%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                    </div>
 
                                                     <strong>Design & Stragety</strong>
-                                                        <span class="float-end">70%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                                                            </div>
+                                                    <span class="float-end">70%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                                    </div>
 
                                                     <strong>Online Platform</strong>
-                                                        <span class="float-end">80%</span>
-                                                            <div class="progress">
-                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                                                            </div>
+                                                    <span class="float-end">80%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                    </div>
 
                                                 </div>
-                                                
+
                                                 <div class="mt-2 mt-lg-auto">
                                                     <a href="products.html" class="custom-link mb-2">
                                                         Explore products
@@ -303,7 +232,7 @@ https://www.tooplate.com/view/2127-little-fashion
 
                         <div class="col-lg-6 col-12">
                             <div class="px-5 py-5 py-lg-0">
-                                
+
                                 <h2 class="mb-4"><span>Retail</span> shop owners</h2>
 
                                 <p class="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
@@ -322,7 +251,7 @@ https://www.tooplate.com/view/2127-little-fashion
             <section class="featured-product section-padding">
                 <div class="container">
                     <div class="row">
-                        
+
                         <div class="col-12 text-center">
                             <h2 class="mb-5">Featured Products</h2>
                         </div>
@@ -413,51 +342,9 @@ https://www.tooplate.com/view/2127-little-fashion
 
         </main>
 
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-10 me-auto mb-4">
-                        <h4 class="text-white mb-3"><a href="index.html">Tropical</a> Coffee</h4>
-                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU CÀ PHÊ <strong>TROPICAL COFFEE</strong></p>
-                        <br>
-                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
-                    </div>
-
-                    <div class="col-lg-5 col-8">
-                        <h5 class="text-white mb-3">Thông tin</h5>
-
-                        <ul class="footer-menu d-flex flex-wrap">
-                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Về chúng tôi</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Sản phẩm</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Chính sách</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Liên hệ</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-4">
-                        <h5 class="text-white mb-3">Social</h5>
-
-                        <ul class="social-icon">
-
-                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </footer>
+        <?php
+        include './components/footer.php';
+        ?>
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
@@ -468,4 +355,5 @@ https://www.tooplate.com/view/2127-little-fashion
         <script src="js/custom.js"></script>
 
     </body>
-</html>
+
+    </html>
