@@ -1,0 +1,9 @@
+RewriteEngine On 
+RewriteRule "http://localhost:83/tropical_land" "index.php"
+RewriteRule "gioi-thieu" "gioithieu.php"
+RewriteRule "san-pham" "products.php"
+RewriteRule "story" "story.php"
+RewriteRule "lien-he" "contact.php"
+
+RewriteRule "san-pham" "index.php#content__member"
+RewriteRule "doi-ngu" "index.php#content__member"

@@ -22,6 +22,7 @@
                     <div class="slick-bottom">
                         <div class="container">
                             <div class="row">
+                                <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1>
                                 <div class="col-lg-6 col-10">
                                     <h1 class="slick-title">TIÊU CHUẨN</h1>
 
@@ -40,6 +41,7 @@
                     <div class="slick-bottom">
                         <div class="container">
                             <div class="row">
+                                <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1>
                                 <div class="col-lg-6 col-10">
                                     <h1 class="slick-title">ĐỘC ĐÁO</h1>
 
@@ -58,6 +60,7 @@
                     <div class="slick-bottom">
                         <div class="container">
                             <div class="row">
+                                <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1>
                                 <div class="col-lg-6 col-10">
                                     <h1 class="slick-title">ĐA DẠNG</h1>
 
@@ -118,8 +121,8 @@
 
                                                 <p>Mỗi sản phẩm chúng tôi tạo ra đều đáp ứng tiêu chí “ Thơm ngon - Độc đáo - Chất lượng”.</p>
                                                 <div class="mt-2 mt-lg-auto">
-                                                    <a href="about.html" class="custom-link mb-2">
-                                                        Learn more about us
+                                                    <a href="about.php" class="custom-link mb-2">
+                                                        THÔNG TIN THÊM VỀ CHÚNG TÔI
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
                                                 </div>
@@ -133,10 +136,9 @@
                                     <div class="row">
                                         <div class="col-lg-7 col-12">
                                             <div class="ratio ratio-16x9">
-                                                <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <iframe width="1600" height="900" src="https://www.youtube.com/embed/Ic5ZCpYn8mE" title="Lịch Sử Cà Phê - Hành Trình Đi Khắp Thế Giới Của " Thức Uống Quốc Dân frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
-
                                         <div class="col-lg-5 col-12">
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                                 <h4 class="mb-3">Vì sao chọn chúng tôi?</h4>
@@ -160,8 +162,8 @@
                                                 </ul>
 
                                                 <div class="mt-2 mt-lg-auto">
-                                                    <a href="contact.html" class="custom-link mb-2">
-                                                        Work with us
+                                                    <a href="contact.php" class="custom-link mb-2">
+                                                        LIÊN HỆ VỚI CHÚNG TÔI
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
                                                 </div>
@@ -180,24 +182,31 @@
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                                 <h4 class="mb-3">Hình thức</h4>
 
-                                                <p>Chúng tôi luôn chào đón bạn dưới đầy đủ các hình thức: khách hàng lẻ, OEM,ODM và cam kết cho mỗi sản phẩm chúng tôi tạo ra.</p>
+                                                <p>Chúng tôi luôn chào đón bạn dưới đầy đủ các hình thức: khách hàng lẻ, OEM, ODM và cam kết cho mỗi sản phẩm chúng tôi tạo ra.</p>
 
                                                 <div class="skill-thumb mt-3">
 
-                                                    <strong>Branding</strong>
-                                                    <span class="float-end">90%</span>
+                                                    <strong>Khách hàng lẻ</strong>
+                                                    <!-- icon -->
+                                                    <span class="float-end">
+                                                        <i class="fa-sharp fa-solid fa-square-check"></i>
+                                                    </span>
                                                     <div class="progress">
                                                         <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
                                                     </div>
 
-                                                    <strong>Design & Stragety</strong>
-                                                    <span class="float-end">70%</span>
+                                                    <strong>OEM</strong>
+                                                    <span class="float-end">
+                                                        <i class="fa-sharp fa-solid fa-square-check"></i>
+                                                    </span>
                                                     <div class="progress">
                                                         <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
                                                     </div>
 
-                                                    <strong>Online Platform</strong>
-                                                    <span class="float-end">80%</span>
+                                                    <strong>ODM</strong>
+                                                    <span class="float-end">
+                                                        <i class="fa-sharp fa-solid fa-square-check"></i>
+                                                    </span>
                                                     <div class="progress">
                                                         <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
                                                     </div>
@@ -205,8 +214,8 @@
                                                 </div>
 
                                                 <div class="mt-2 mt-lg-auto">
-                                                    <a href="products.html" class="custom-link mb-2">
-                                                        Explore products
+                                                    <a href="products.php" class="custom-link mb-2">
+                                                        KHÁM PHÁ CÁC SẢN PHẨM
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
                                                 </div>

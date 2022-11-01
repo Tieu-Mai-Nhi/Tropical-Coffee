@@ -4,26 +4,26 @@
              <span class="navbar-toggler-icon"></span>
          </button>
 
-         <a class="navbar-brand" href="index.php">
+         <a class="navbar-brand" href="http://localhost:83/tropical_land">
              <strong><span>Tropical</span> Coffee</strong>
          </a>
 
          <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav mx-auto">
                  <li class="nav-item">
-                     <a class="nav-link header__navbar-item-link" href="index.php">Trang chủ</a>
+                     <a class="nav-link" href="http://localhost:83/tropical_land">Trang chủ</a>
                  </li>
 
                  <li class="nav-item">
-                     <a class="nav-link header__navbar-item-link" href="products.php">Sản phẩm</a>
+                     <a class="nav-link" href="san-pham">Sản phẩm</a>
                  </li>
 
                  <li class="nav-item">
-                     <a class="nav-link header__navbar-item-link" href="about.php">Story</a>
+                     <a class="nav-link" href="story">Story</a>
                  </li>
 
                  <li class="nav-item">
-                     <a class="nav-link header__navbar-item-link" href="contact.php">Liên hệ</a>
+                     <a class="nav-link" href="lien-he">Liên hệ</a>
                  </li>
              </ul>
          </div>

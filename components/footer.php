@@ -15,13 +15,13 @@
                 <ul class="footer-menu d-flex flex-wrap">
                     <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Về chúng tôi</a></li>
 
-                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Sản phẩm</a></li>
+                    <li class="footer-menu-item"><a href="san-pham" class="footer-menu-link">Sản phẩm</a></li>
 
                     <li class="footer-menu-item"><a href="#" class="footer-menu-link">Chính sách</a></li>
 
-                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
+                    <li class="footer-menu-item"><a href="lien-he" class="footer-menu-link">FAQs</a></li>
 
-                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Liên hệ</a></li>
+                    <li class="footer-menu-item"><a href="lien-he" class="footer-menu-link">Liên hệ</a></li>
                 </ul>
             </div>
 

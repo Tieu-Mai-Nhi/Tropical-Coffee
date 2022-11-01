@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.1-web/css/all.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -28,5 +29,6 @@
     <link rel="stylesheet" href="./css/custom.css">
 
     <link rel="icon" type="image/x-icon" href="./images/avt.jpg">
-    <script type="text/javascript" src="./js/reponsiveNav.js"></script>
+
+    <script src="./js/responsiveNav.js"></script>
 </head>

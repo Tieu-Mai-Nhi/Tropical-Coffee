@@ -2,3 +2,7 @@
     /* flex-grow: no-wrap!important; */ 
     /* k set đc nên phải chỉnh tron file bootstrap */
 }
+
+.slogan {
+    color: var(--section-bg-color);
+}
