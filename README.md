@@ -5,9 +5,9 @@
 - php mailer
 
 - tối ưu SEO
-- favicon
+- favicon: done
 - ht access
-- icon thay 100% trang chu
+- icon thay 100% trang chu ---- gan link thay, ko add cả thư viện
 
 -- tìm nội dung thay thế
 -- lập email, fanpage, link, sđt công ty

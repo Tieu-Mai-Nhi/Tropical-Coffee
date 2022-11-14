@@ -4,14 +4,14 @@
              <span class="navbar-toggler-icon"></span>
          </button>
 
-         <a class="navbar-brand" href="http://localhost:83/tropical_land">
+         <a class="navbar-brand" href="http://tropicalcoffee.vn/">
              <strong><span>Tropical</span> Coffee</strong>
          </a>
 
          <div class="collapse navbar-collapse" id="navbarNav">
              <ul class="navbar-nav mx-auto">
                  <li class="nav-item">
-                     <a class="nav-link" href="http://localhost:83/tropical_land">Trang chủ</a>
+                     <a class="nav-link" href="http://tropicalcoffee.vn/">Trang chủ</a>
                  </li>
 
                  <li class="nav-item">

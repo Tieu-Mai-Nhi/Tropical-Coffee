@@ -16,6 +16,26 @@ include './headTag.php';
         include './components/header.php';
         ?>
 
+        <header class="site-header section-padding-img site-header-image">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-10 col-12 header-info">
+                        <h1>
+                            <span class="d-block text-primary">Say hello to us</span>
+                            <span class="d-block text-dark">love to hear you</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <img src="./images/header/header1.jpg" class="header-image img-fluid" alt="" />
+        </header>
+
+        <?php
+        include "./mail/sendMailContactUser.php";
+        ?>
+
         <section class="contact section-padding">
             <div class="container">
                 <div class="row">
@@ -23,12 +43,18 @@ include './headTag.php';
                     <div class="col-lg-6 col-12">
                         <h2 class="mb-4">Kết nối với <span> Tropical Coffee</span></h2>
 
-                        <form class="contact-form me-lg-5 pe-lg-3" role="form">
+                        <form action="" method="POST" id="form" class="contact-form me-lg-5 pe-lg-3" role="form">
 
                             <div class="form-floating">
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
 
                                 <label for="name">Tên của bạn</label>
+                            </div>
+
+                            <div class="form-floating my-4">
+                                <input type="phone" name="phone" id="phone" class="form-control" placeholder="Phone" required>
+
+                                <label for="phone">Số điện thoại</label>
                             </div>
 
                             <div class="form-floating my-4">
@@ -49,8 +75,14 @@ include './headTag.php';
                                 <label for="message">Nội dung</label>
                             </div>
 
+                            <p class="col-12" style="color: green; font-weight: 600; font-size: 20px; margin-bottom: 28px">
+                                <?php if (!empty($msg)) {
+                                    echo $msg;
+                                } ?>
+                            </p>
+
                             <div class="col-lg-5 col-6">
-                                <button type="submit" class="form-control">Gửi</button>
+                                <button type="submit" name="submit" form="form" value="submit" class="form-control">Gửi</button>
                             </div>
                         </form>
                     </div>

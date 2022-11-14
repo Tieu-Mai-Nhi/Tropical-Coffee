@@ -13,7 +13,7 @@
                 <h5 class="text-white mb-3">Thông tin</h5>
 
                 <ul class="footer-menu d-flex flex-wrap">
-                    <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Về chúng tôi</a></li>
+                    <li class="footer-menu-item"><a href="story" class="footer-menu-link">Về chúng tôi</a></li>
 
                     <li class="footer-menu-item"><a href="san-pham" class="footer-menu-link">Sản phẩm</a></li>
 

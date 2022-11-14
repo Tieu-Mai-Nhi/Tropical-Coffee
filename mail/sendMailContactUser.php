@@ -8,7 +8,6 @@ require("mail/PHPMailer/Exception.php");
 require("mail/PHPMailer/PHPMailer.php");
 require("mail/PHPMailer/SMTP.php");
 
-
 if (isset($_POST['submit'])) {
     //Create an instance; passing `true` enables exceptions
     $mail = new PHPMailer\PHPMailer\PHPMailer();
@@ -19,7 +18,7 @@ if (isset($_POST['submit'])) {
     $mail->SMTPAuth   = true;      //xác thực SMTP
     //Enable SMTP authentication
     $mail->Username   = 'thang0909vnwork@gmail.com';                     //SMTP username
-    $mail->Password   = 'mxjzgupkxnlqjdzk';                               //SMTP password
+    $mail->Password   = 'ywfbhkzzqtsjsmkx';                               //SMTP password
     //Enable implicit TLS encryption
     $mail->Port       = 587;
     $mail->SMTPSecure = "tls";
@@ -27,24 +26,24 @@ if (isset($_POST['submit'])) {
     //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('fromthang0909vnwork@gmail.com', 'Tropical-Land Khách hàng');  //địa chỉ email người gửi
+    $mail->setFrom('fromthang0909vnwork@gmail.com', 'Tropical Land Khách hàng');  //địa chỉ email người gửi
 
     $mail->addAddress('maiducthang0909@gmail.com', 'Mr. Thang');     //Add a recipient, địa chỉ người nhận
-    $mail->addAddress('thangmdfx12498@funix.edu.vn', 'Thangden');
+    $mail->addAddress('vuhung14@gmail.com', 'Mr. Hung');
 
-    $mail->Subject = 'Khách hàng cà phê';
+    $mail->Subject = 'Thông tin từ khách hàng cà phê';
     $mail->isHTML(false);
     $mail->Body = <<<EOT
-        Yêu cầu từ khách hàng:
+        Yêu cầu từ khách hàng có thông tin như sau:
         Email: {$_POST['email']}
         Tên: {$_POST['name']}
         Điện thoại: {$_POST['phone']}
-        Về vấn đề: {$_POST['heading']}
-        Lời nhắn: {$_POST['text_area']}
+        Liên hệ về vấn đề: {$_POST['subject']}
+        Lời nhắn: {$_POST['message']}
     EOT;
     if (!$mail->send()) { //gửi mail
         $msg = 'Có lỗi! Thông tin chưa được gửi, vui lòng thử lại.';
     } else {
-        $msg = 'Xin cảm ơn quý khách, thông tin đã được gửi thành công. Đội ngũ công ty sẽ liên hệ với bạn sớm nhất!';
+        $msg = 'Xin cảm ơn quý khách, thông tin đã được gửi thành công. Đội ngũ công ty sẽ liên hệ với quý khách sớm nhất!';
     }
 }

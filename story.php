@@ -30,7 +30,7 @@ include './headTag.php';
                 </div>
             </div>
 
-            <img src="images/header/businesspeople-meeting-office-working.jpg" class="header-image img-fluid" alt="">
+            <img src="./images/story-company/1.jpg" class="header-image img-fluid" alt="">
         </header>
 
         <section class="team section-padding">
@@ -99,21 +99,24 @@ include './headTag.php';
                 <div class="row">
 
                     <div class="col-lg-9 mx-auto col-11">
-                        <h2 class="text-center">Customer love, <br> <span>Little</span> Fashion</h2>
+                        <h2 class="text-center">Quy Trình Sản Xuất <br> <span>Tropical</span> Coffee</h2>
 
                         <div class="slick-testimonial">
                             <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+                            <h6>1.	Tuyển lựa kỹ lưỡng nguồn hạt cà phê nguyên liệu đầu vào</h6>    
+                            <p class="lead">Để có được những ly cà phê làm say mê vị giác, trước hết phải có được những hạt cà phê mang đầy đủ phẩm chất, đó phải là những hạt cà phê chín đỏ, đạt tiêu chuẩn về kích thước, thể chất. Chúng tôi sử dụng giống cà phê Robusta nổi tiếng của Việt Nam từ thủ phủ cà phê Đăk Lăk, giống cà phê Arabica từ mảnh đất Lâm Đồng nơi có độ cao tuyệt vời cho giống cà phê này phát triển. Đây là những giống cà phê mang phong vị đặc trưng của đất nước chúng tôi.</p>
 
                                 <div class="slick-testimonial-client d-flex align-items-center mt-4">
-                                    <img src="images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg" class="img-fluid custom-circle-image me-3" alt="">
+                                    <img src="./images/story-company/1.jpg" class="img-fluid custom-circle-image me-3" alt="">
 
                                     <span>George, <strong class="text-muted">Digital Art Fashion</strong></span>
                                 </div>
                             </div>
 
                             <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+                            <h6>2.	Rang và xay cà phê bột</h6>    
+                            <p class="lead">Từ những hạt cà phê được tuyển chọn kỹ lưỡng, qua giai đoạn sơ chế. Những hạt cà phê xanh sẽ được đưa vào rang. Bằng kinh nghiệm của những thợ rang lành nghề, kết hợp cùng máy rang công nghệ hot air hiện đại, cho ra những mẻ cà phê rang đạt chất lượng cao nhất. Sau quá trình này hạt cà phê đã rang sẽ được đưa vào máy xay, biến chúng thành dạng bột.</p>
+                            
 
                                 <div class="slick-testimonial-client d-flex align-items-center mt-4">
                                     <img src="images/people/beautiful-woman-face-portrait-brown-background.jpeg" class="img-fluid custom-circle-image me-3" alt="">
@@ -123,7 +126,15 @@ include './headTag.php';
                             </div>
 
                             <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+                            <h6>3.	Quá trình trích ly</h6>    
+                            <p class="lead">Trích ly là quá trình hòa tan các chất có trong cà phê bằng nước nóng để tạo thành dung dịch chiết có nồng độ và các chất hòa tan khoảng 25 – 35%. Hệ thống và quá trình trích ly cà phê diễn ra như sau:
+                            </p>
+                            <ul class="lead">
+                                <li>Đầu tiên đổ cà phê vào thiết bị trích ly gián đoạn hình tháp được bảo ôn nhiệt độ.</li>
+                                <li>Bơm nước nóng khoảng 80 – 90 độ C từ đáy tháp lên để trích ly cà phê.</li>
+                                <li>Khi nước nóng đi qua cà phê trong tháp sẽ diễn ra quá trình trích ly các chất hòa tan.</li>
+                                <li>Các chất hòa tan này sẽ tạo thành một dung dịch tại đỉnh tháp. Để giúp lượng chất tan thu được tại đỉnh tháp tăng dần, cà phê bột sẽ liên tục được thay thế tại các tháp.</li>
+                            </ul>
 
                                 <div class="slick-testimonial-client d-flex align-items-center mt-4">
                                     <img src="images/people/portrait-british-woman.jpeg" class="img-fluid custom-circle-image me-3" alt="">
@@ -133,10 +144,11 @@ include './headTag.php';
                             </div>
 
                             <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
+                            <h6>4.	Cô đặc</h6>    
+                            <p class="lead">Sau khi trích ly chúng ta chưa thể sấy khô được bởi lúc này nồng độ dịch cà phê là 20 – 22%. Để thuận lợi cho quá trình sấy, phải tiến hành cô đặc dịch trích ly đến nồng độ 30 – 33%.</p>
 
                                 <div class="slick-testimonial-client d-flex align-items-center mt-4">
-                                    <img src="images/people/woman-wearing-mask-face-closeup-covid-19-green-background.jpeg" class="img-fluid custom-circle-image me-3" alt="">
+                                    <img src="./images/story-company/Xuongdong goi.JPG" class="img-fluid custom-circle-image me-3" alt="">
 
                                     <span>Catherine, <strong class="text-muted">Dress Fashion</strong></span>
                                 </div>

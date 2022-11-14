@@ -7,5 +7,7 @@
 			"path": "../../Company_Page"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tropical_land"
+	}
 }

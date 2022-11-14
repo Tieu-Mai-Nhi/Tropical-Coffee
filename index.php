@@ -22,7 +22,7 @@
                     <div class="slick-bottom">
                         <div class="container">
                             <div class="row">
-                                <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1>
+                                <!-- <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1> -->
                                 <div class="col-lg-6 col-10">
                                     <h1 class="slick-title">TIÊU CHUẨN</h1>
 
@@ -41,7 +41,7 @@
                     <div class="slick-bottom">
                         <div class="container">
                             <div class="row">
-                                <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1>
+                                <!-- <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1> -->
                                 <div class="col-lg-6 col-10">
                                     <h1 class="slick-title">ĐỘC ĐÁO</h1>
 
@@ -54,13 +54,14 @@
                     </div>
                 </div>
 
+
                 <div class="slick-custom">
                     <img src="./images/slideshow/slideshow4.jpg" class="img-fluid" alt="">
 
                     <div class="slick-bottom">
                         <div class="container">
                             <div class="row">
-                                <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1>
+                                <!-- <h1 class="slick-title slogan flex-end">KHAI PHÓNG ĐAM MÊ</h1> -->
                                 <div class="col-lg-6 col-10">
                                     <h1 class="slick-title">ĐA DẠNG</h1>
 
@@ -83,7 +84,7 @@
                     <div class="row">
 
                         <div class="col-12 text-center">
-                            <h2 class="mb-5">Bắt đầu với <span>Tropical Coffee</span> </h2>
+                            <h2 class="mb-5">Khai Phóng <span>Đam Mê </span> </h2>
                         </div>
 
                         <div class="col-lg-2 col-12 mt-auto mb-auto">
@@ -115,13 +116,13 @@
                                             <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                                 <h4 class="mb-3">Sứ Mệnh</h4>
 
-                                                <p>Chúng tôi là một doanh nghiệp trẻ đầy năng động, các thành viên cốt cán là những con người ưu tú, dày dặn kinh nghiệm trong lĩnh vực chế biến, sản xuất cà phê.</p>
+                                                <p>Tropical Coffee là một doanh nghiệp trẻ đầy năng động, các thành viên cốt cán là những con người ưu tú, dày dặn kinh nghiệm trong lĩnh vực chế biến, sản xuất cà phê.</p>
 
                                                 <p>Với công nghệ hiện đại cùng sự am hiểu về khẩu vị, thấu hiểu thị hiếu người tiêu dùng và niềm đam mê khao khát mang lại cho khách hàng những trải nghiệm tuyệt vời.</p>
 
                                                 <p>Mỗi sản phẩm chúng tôi tạo ra đều đáp ứng tiêu chí “ Thơm ngon - Độc đáo - Chất lượng”.</p>
                                                 <div class="mt-2 mt-lg-auto">
-                                                    <a href="about.php" class="custom-link mb-2">
+                                                    <a href="story" class="custom-link mb-2">
                                                         THÔNG TIN THÊM VỀ CHÚNG TÔI
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
@@ -162,7 +163,7 @@
                                                 </ul>
 
                                                 <div class="mt-2 mt-lg-auto">
-                                                    <a href="contact.php" class="custom-link mb-2">
+                                                    <a href="lien-he" class="custom-link mb-2">
                                                         LIÊN HỆ VỚI CHÚNG TÔI
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
@@ -214,7 +215,7 @@
                                                 </div>
 
                                                 <div class="mt-2 mt-lg-auto">
-                                                    <a href="products.php" class="custom-link mb-2">
+                                                    <a href="san-pham" class="custom-link mb-2">
                                                         KHÁM PHÁ CÁC SẢN PHẨM
                                                         <i class="bi-arrow-right ms-2"></i>
                                                     </a>
@@ -247,7 +248,7 @@
                                 <p class="lead mb-4">Credits go to Unsplash and FreePik websites for images used in this Little Fashion by Tooplate.</p>
 
                                 <a href="products.html" class="custom-link">
-                                    Explore Products
+                                    ĐI TỚI TRANG SẢN PHẨM
                                     <i class="bi-arrow-right ms-2"></i>
                                 </a>
                             </div>
@@ -262,7 +263,7 @@
                     <div class="row">
 
                         <div class="col-12 text-center">
-                            <h2 class="mb-5">Featured Products</h2>
+                            <h2 class="mb-5">SẢN PHẨM NỔI BẬT</h2>
                         </div>
 
                         <div class="col-lg-4 col-12 mb-3">
@@ -336,13 +337,13 @@
                                         <p class="product-p">Nature made another world</p>
                                     </div>
 
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">20.000đ</small>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-12 text-center">
-                            <a href="products.html" class="view-all">View All Products</a>
+                            <a href="products.html" class="view-all">XEM TẤT CẢ</a>
                         </div>
 
                     </div>

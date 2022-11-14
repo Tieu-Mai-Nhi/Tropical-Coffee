@@ -39,8 +39,8 @@ include './headTag.php';
 
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="product-thumb">
-                            <a href="product-detail.html">
-                                <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="">
+                            <a href="product-detail.php">
+                                                               <img src="images/product/caphe1.jpg" class="img-fluid product-image" alt="">
                             </a>
 
                             <div class="product-top d-flex">
@@ -52,7 +52,7 @@ include './headTag.php';
                             <div class="product-info d-flex">
                                 <div>
                                     <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">Tree pot</a>
+                                        <a href="product-detail.php" class="product-title-link">Tree pot</a>
                                     </h5>
 
                                     <p class="product-p">Original package design from house</p>
@@ -65,8 +65,8 @@ include './headTag.php';
 
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="product-thumb">
-                            <a href="product-detail.html">
-                                <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="">
+                            <a href="product-detail.php">
+                                                                <img src="images/product/caphe1.jpg" class="img-fluid product-image" alt="">
                             </a>
 
                             <div class="product-top d-flex">
@@ -78,7 +78,7 @@ include './headTag.php';
                             <div class="product-info d-flex">
                                 <div>
                                     <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">Fashion set</a>
+                                        <a href="product-detail.php" class="product-title-link">Fashion set</a>
                                     </h5>
 
                                     <p class="product-p">Costume package</p>
@@ -91,8 +91,8 @@ include './headTag.php';
 
                     <div class="col-lg-4 col-12">
                         <div class="product-thumb">
-                            <a href="product-detail.html">
-                                <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="">
+                            <a href="product-detail.php">
+                                <img src="images/product/caphe1.jpg" class="img-fluid product-image" alt="">
                             </a>
 
                             <div class="product-top d-flex">
@@ -102,7 +102,7 @@ include './headTag.php';
                             <div class="product-info d-flex">
                                 <div>
                                     <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">Juice Drinks</a>
+                                        <a href="product-detail.php" class="product-title-link">Juice Drinks</a>
                                     </h5>
 
                                     <p class="product-p">Nature made another world</p>
@@ -119,7 +119,7 @@ include './headTag.php';
 
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="product-thumb">
-                            <a href="product-detail.html">
+                            <a href="product-detail.php">
                                 <img src="images/product/caphe1.jpg" class="img-fluid product-image" alt="">
                             </a>
 
@@ -132,7 +132,7 @@ include './headTag.php';
                             <div class="product-info d-flex">
                                 <div>
                                     <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">Package</a>
+                                        <a href="product-detail.php" class="product-title-link">Package</a>
                                     </h5>
 
                                     <p class="product-p">Original package design from house</p>
@@ -145,7 +145,7 @@ include './headTag.php';
 
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="product-thumb">
-                            <a href="product-detail.html">
+                            <a href="product-detail.php">
                                 <img src="images/product/caphe2.jpg" class="img-fluid product-image" alt="">
                             </a>
 
@@ -156,7 +156,7 @@ include './headTag.php';
                             <div class="product-info d-flex">
                                 <div>
                                     <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">Bottle</a>
+                                        <a href="product-detail.php" class="product-title-link">Bottle</a>
                                     </h5>
 
                                     <p class="product-p">Package design</p>
@@ -169,7 +169,7 @@ include './headTag.php';
 
                     <div class="col-lg-4 col-12 mb-3">
                         <div class="product-thumb">
-                            <a href="product-detail.html">
+                            <a href="product-detail.php">
                                 <img src="images/product/caphe3.jpg" class="img-fluid product-image" alt="">
                             </a>
 
@@ -180,7 +180,7 @@ include './headTag.php';
                             <div class="product-info d-flex">
                                 <div>
                                     <h5 class="product-title mb-0">
-                                        <a href="product-detail.html" class="product-title-link">Medicine</a>
+                                        <a href="product-detail.php" class="product-title-link">Medicine</a>
                                     </h5>
 
                                     <p class="product-p">Original design from house</p>
